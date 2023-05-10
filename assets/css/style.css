@@ -1442,9 +1442,9 @@ section {
 
 
 .table-wrap {
-  overflow-x: scroll; }
+  overflow-x:auto; }
 .table {
-  min-width: 1000px !important;
+  min-width: 300px !important;
   width: 100%;
   background: #fff;
   -webkit-box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29);
@@ -1487,3 +1487,14 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }
+
+  .glightbox-mobile .glightbox-container .gslide-title {
+    font-size: 1.5em;
+    text-align: center;
+    background-color: transparent;
+  }
+
+  .img-fluid {
+    max-width: 30%;
+    height: auto;
+  }
