@@ -1475,6 +1475,7 @@ section {
     width: 100px;
     height: 80px; }
   .table tbody td .email span {
+    padding-left: 0.7rem;
     display: block; }
     .table tbody td .email span:last-child {
       font-size: 12px;
